@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remote -->
+ <remote name="github" fetch="https://github.com" clone-depth="1" />
+
+ <!--Device Tree -->
+ <project name="vishwajithkv/device_xiaomi_spes"  revision="14" path="device/xiaomi/spes"  remote="github"/>
+
+ <!--Kernel -->
+ <project name="vishwajithkv/kernel_xiaomi_spes" revision="nightsilver" path="kernel/xiaomi/spes" remote="github"/>
+ 
+ <!--Vendor -->
+ <project name="angelomds42/android_vendor_xiaomi_spes" revision="fourteen" path="vendor/xiaomi/spes" remote="github"/>
+ 
+ <!--Extras -->
+ <project name="LineageOS/android_hardware_xiaomi" revision="lineage-21" path="hardware/xiaomi"  remote="github"/>
+ <project name="vishwajithkv/tmp" revision="master" path="vendor/lineage-priv/keys" remote="github"/>
+
+</manifest>
