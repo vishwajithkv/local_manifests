@@ -1,4 +1,4 @@
-# Building Custom ROM for Redmi Note 11 (spes/spesn)
+# Building Custom ROM for Redmi K30 4G/Poco X2 (phoenix)
 
 This guide will help you set up your environment and automatically sync all necessary repositories to build risingOS-14/lineage-21 for the Redmi Note 11 (spes/spesn). The steps below ensure that all device dependencies, including the vendor and kernel, are cloned automatically, so you don't have to worry about manual setup.
 
@@ -9,7 +9,7 @@ This guide will help you set up your environment and automatically sync all nece
 Begin by cloning the local manifests repository. This repository contains all the necessary configuration files to automatically fetch the device-specific sources:
 
 ```bash
-git clone https://github.com/vishwajithkv/local_manifests.git -b spes .repo/local_manifests
+git clone https://github.com/vishwajithkv/local_manifests.git -b phoenix .repo/local_manifests
 ```
 
 ## Step 2: Sync the Repositories
