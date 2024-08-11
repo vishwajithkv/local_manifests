@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remote -->
- <remote name="github" fetch="https://github.com" clone-depth="1" />
+ <remote name="ghub" fetch="https://github.com" clone-depth="1" />
 
  <!--Device Tree -->
- <project name="vishwajithkv/device_xiaomi_spes-exp"  revision="lineage-21" path="device/xiaomi/spes"  remote="github"/>
+ <project name="vishwajithkv/device_xiaomi_spes-exp"  revision="lineage-21" path="device/xiaomi/spes"  remote="ghub"/>
 
  <!--Kernel -->
- <project name="vishwajithkv/kernel_xiaomi_spes" revision="nightsilver" path="kernel/xiaomi/spes" remote="github"/>
+ <project name="vishwajithkv/kernel_xiaomi_spes" revision="nightsilver" path="kernel/xiaomi/spes" remote="ghub"/>
  
  <!--Vendor -->
- <project name="vishwajithkv/vendor_xiaomi_spes" revision="lineage-21" path="vendor/xiaomi/spes" remote="github"/>
+ <project name="vishwajithkv/vendor_xiaomi_spes" revision="lineage-21" path="vendor/xiaomi/spes" remote="ghub"/>
  
  <!--Extras -->
- <project name="LineageOS/android_hardware_xiaomi" revision="lineage-21" path="hardware/xiaomi"  remote="github"/>
-<!-- <project name="vishwajithkv/tmp" revision="master" path="vendor/lineage-priv/keys" remote="github"/> -->
+ <project name="LineageOS/android_hardware_xiaomi" revision="lineage-21" path="hardware/xiaomi"  remote="ghub"/>
+<!-- <project name="vishwajithkv/tmp" revision="master" path="vendor/lineage-priv/keys" remote="ghub"/> -->
 
 </manifest>
