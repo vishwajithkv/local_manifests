@@ -7,7 +7,7 @@
  <project name="vishwajithkv/device_xiaomi_spes-exp"  revision="lineage-21" path="device/xiaomi/spes"  remote="ghub"/>
 
  <!--Kernel -->
- <project name="vishwajithkv/kernel_xiaomi_spes" revision="nightsilver" path="kernel/xiaomi/spes" remote="ghub"/>
+ <project name="boedhack99/kernel_xiaomi_spes" revision="12" path="kernel/xiaomi/spes" remote="ghub"/>
  
  <!--Vendor -->
  <project name="vishwajithkv/vendor_xiaomi_spes" revision="lineage-21" path="vendor/xiaomi/spes" remote="ghub"/>
