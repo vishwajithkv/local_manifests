@@ -4,7 +4,7 @@
  <remote name="ghub" fetch="https://github.com" clone-depth="1" />
 
  <!--Device Tree -->
- <project name="vishwajithkv/device_xiaomi_phoenix"  revision="risingOS-14" path="device/xiaomi/phoenix"  remote="ghub"/>
+ <project name="vishwajithkv/device_xiaomi_phoenix"  revision="risingOS-14-common" path="device/xiaomi/phoenix"  remote="ghub"/>
  <project name="vishwajithkv/device_xiaomi_sm6150-common"  revision="14" path="device/xiaomi/sm6150-common"  remote="ghub"/>
 
  <!--Kernel -->
