@@ -4,18 +4,16 @@
  <remote name="ghub" fetch="https://github.com" clone-depth="1" />
 
  <!--Device Tree -->
- <project name="vishwajithkv/device_xiaomi_phoenix"  revision="risingOS-14-common" path="device/xiaomi/phoenix"  remote="ghub"/>
- <project name="vishwajithkv/device_xiaomi_sm6150-common"  revision="14" path="device/xiaomi/sm6150-common"  remote="ghub"/>
+ <project name="vishwajithkv/device_xiaomi_phoenix"  revision="14" path="device/xiaomi/phoenix"  remote="ghub"/>
 
  <!--Kernel -->
- <project name="vishwajithkv/kernel_xiaomi_phoenix" revision="14" path="kernel/xiaomi/sm6150" remote="ghub"/>
+ <project name="vishwajithkv/kernel_xiaomi_phoenix" revision="14" path="kernel/xiaomi/phoenix" remote="ghub"/>
  
  <!--Vendor -->
- <project  name="aosp-phoenix/proprietary_vendor_xiaomi_phoenix" revision="pos" path="vendor/xiaomi/phoenix" remote="ghub"/>
- <project  name="aosp-phoenix/proprietary_vendor_xiaomi_sm6150-common" revision="ursa-qpr3" path="vendor/xiaomi/sm6150-common" remote="ghub"/>
+ <project  name="vishwajithkv/vendor_xiaomi_phoenix" revision="14" path="vendor/xiaomi/phoenix" remote="ghub"/>
  
  <!--Extras -->
- <project name="vishwajithkv/android_hardware_xiaomi" revision="lineage-21" path="hardware/xiaomi"  remote="ghub"/>
+ <project name="lineageos/android_hardware_xiaomi" revision="lineage-21" path="hardware/xiaomi"  remote="ghub"/>
  <project name="vishwajithkv/tmp" revision="master" path="vendor/lineage-priv/keys" remote="ghub"/>
  <project name="ArrowOS-Devices/android_device_xiaomi_extras" revision="arrow-12.0" path="device/xiaomi/extras" remote="ghub"/>
 
