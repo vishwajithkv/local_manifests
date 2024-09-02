@@ -10,7 +10,7 @@
  <project name="Skyblueborb/kernel_xiaomi_laurel_sprout" revision="main" path="kernel/xiaomi/laurel_sprout" remote="ghub"/>
  
  <!--Vendor -->
- <project name="Skyblueborb/vendor_xiaomi_laurel_sprout" revision="fourteen" path="vendor/xiaomi/laurel_sprout" remote="ghub"/>
+ <project name="Skyblueborb/vendor_xiaomi_laurel_sprout" revision="lineage-21.0" path="vendor/xiaomi/laurel_sprout" remote="ghub"/>
  
  <!--Extras -->
  <project name="LineageOS/android_hardware_xiaomi" revision="lineage-21" path="hardware/xiaomi"  remote="ghub"/>
