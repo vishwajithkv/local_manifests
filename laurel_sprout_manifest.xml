@@ -4,10 +4,10 @@
  <remote name="ghub" fetch="https://github.com" clone-depth="1" />
 
  <!--Device Tree -->
- <project name="vishwajithkv/device_xiaomi_laurel_sprout"  revision="14" path="device/xiaomi/laurel_sprout"  remote="ghub"/>
+ <project name="vishwajithkv/device_xiaomi_laurel_sprout"  revision="rdp-14" path="device/xiaomi/laurel_sprout"  remote="ghub"/>
 
  <!--Kernel -->
- <project name="Skyblueborb/kernel_xiaomi_laurel_sprout" revision="main" path="kernel/xiaomi/laurel_sprout" remote="ghub"/>
+ <project name="vishwajithkv/kernel_xiaomi_laurel_sprout" revision="main" path="kernel/xiaomi/laurel_sprout" remote="ghub"/>
  
  <!--Vendor -->
  <project name="Mi-A3-laurel-sprout/vendor_xiaomi_laurel_sprout" revision="udc" path="vendor/xiaomi/laurel_sprout" remote="ghub"/>
