@@ -7,7 +7,7 @@
  <project name="vishwajithkv/device_xiaomi_laurel_sprout"  revision="14" path="device/xiaomi/laurel_sprout"  remote="ghub"/>
 
  <!--Kernel -->
- <project name="vishwajithkv/kernel_xiaomi_laurel_sprout" revision="14-noname" path="kernel/xiaomi/laurel_sprout" remote="ghub"/> 
+ <project name="Mi-A3-laurel-sprout/kernel_xiaomi_XD" revision="lineage-18.1" path="kernel/xiaomi/laurel_sprout" remote="ghub"/> 
  
  <!--Vendor -->
  <project name="vishwajithkv/vendor_xiaomi_laurel_sprout" revision="14" path="vendor/xiaomi/laurel_sprout" remote="ghub"/>
