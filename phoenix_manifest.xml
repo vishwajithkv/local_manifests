@@ -7,7 +7,7 @@
  <project name="vishwajithkv/device_xiaomi_phoenix"  revision="14" path="device/xiaomi/phoenix"  remote="ghub"/>
 
  <!--Kernel -->
- <project name="vishwajithkv/kernel_xiaomi_phoenix" revision="upstream-test" path="kernel/xiaomi/phoenix" remote="ghub"/>
+ <project name="vishwajithkv/kernel_xiaomi_phoenix" revision="14" path="kernel/xiaomi/phoenix" remote="ghub"/>
  
  <!--Vendor -->
  <project  name="vishwajithkv/vendor_xiaomi_phoenix" revision="14" path="vendor/xiaomi/phoenix" remote="ghub"/>
